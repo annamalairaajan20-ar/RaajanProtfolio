@@ -1079,7 +1079,8 @@
     .about-side {
       display: flex;
       flex-direction: column;
-      gap: 14px
+      gap: 14px;
+      align-items: flex-start
     }
 
     .about-photo {
@@ -1113,6 +1114,8 @@
     }
 
     .avail-card {
+      width: 100%;
+      max-width: 380px;
       background: linear-gradient(160deg, #191B22, #0F1015);
       border: 1px solid var(--line2);
       border-radius: 18px;
@@ -2384,10 +2387,6 @@
           </div>
         </div>
         <div class="about-side reveal">
-          <div class="about-photo">
-            <img src="./image resize.png" alt="Annamalai Raajan">
-            <span class="mono"></span>
-          </div>
           <div class="avail-card">
             <div class="top"><span class="badge-ok"></span>
               <h4>Currently Available</h4>
